@@ -1,0 +1,74 @@
+﻿<Window x:Class="Vier_Gewinnt.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="53*" />
+            <RowDefinition Height="53.25" />
+            <RowDefinition Height="53*" />
+            <RowDefinition Height="54*" />
+            <RowDefinition Height="53*" />
+            <RowDefinition Height="54*" />
+            <RowDefinition Height="53*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Button Grid.Row="0" Grid.Column="0" Click="OnClick" Name="f0" />
+        <Button Grid.Row="0" Grid.Column="1" Click="OnClick" Name="f1" />
+        <Button Grid.Row="0" Grid.Column="2" Click="OnClick" Name="f2" >
+        </Button>
+        <Button Grid.Row="0" Grid.Column="3" Click="OnClick" Name="f3" />
+        <Button Grid.Row="0" Grid.Column="4" Click="OnClick" Name="f4" />
+        <Button Grid.Row="0" Grid.Column="5" Click="OnClick" Name="f5" />
+        <Button Grid.Row="0" Grid.Column="6" Click="OnClick" Name="f6" />
+
+        <Button Grid.Row="1" Grid.Column="0" Click="OnClick" Name="e0" />
+        <Button Grid.Row="1" Grid.Column="1" Click="OnClick" Name="e1" />
+        <Button Grid.Row="1" Grid.Column="2" Click="OnClick" Name="e2" />
+        <Button Grid.Row="1" Grid.Column="3" Click="OnClick" Name="e3" />
+        <Button Grid.Row="1" Grid.Column="4" Click="OnClick" Name="e4" />
+        <Button Grid.Row="1" Grid.Column="5" Click="OnClick" Name="e5" />
+        <Button Grid.Row="1" Grid.Column="6" Click="OnClick" Name="e6" />
+       
+        <Button Grid.Row="2" Grid.Column="0" Click="OnClick" Name="d0" />
+        <Button Grid.Row="2" Grid.Column="1" Click="OnClick" Name="d1" />
+        <Button Grid.Row="2" Grid.Column="2" Click="OnClick" Name="d2" />
+        <Button Grid.Row="2" Grid.Column="3" Click="OnClick" Name="d3" />
+        <Button Grid.Row="2" Grid.Column="4" Click="OnClick" Name="d4" />
+        <Button Grid.Row="2" Grid.Column="5" Click="OnClick" Name="d5" />
+        <Button Grid.Row="2" Grid.Column="6" Click="OnClick" Name="d6" />
+        
+        <Button Grid.Row="3" Grid.Column="0" Click="OnClick" Name="c0" />
+        <Button Grid.Row="3" Grid.Column="1" Click="OnClick" Name="c1"/>
+        <Button Grid.Row="3" Grid.Column="2" Click="OnClick" Name="c2" />
+        <Button Grid.Row="3" Grid.Column="3" Click="OnClick" Name="c3" />
+        <Button Grid.Row="3" Grid.Column="4" Click="OnClick" Name="c4" />
+        <Button Grid.Row="3" Grid.Column="5" Click="OnClick" Name="c5" />
+        <Button Grid.Row="3" Grid.Column="6" Click="OnClick" Name="c6" />
+        
+        <Button Grid.Row="4" Grid.Column="0" Click="OnClick" Name="b0" />
+        <Button Grid.Row="4" Grid.Column="1" Click="OnClick" Name="b1" />
+        <Button Grid.Row="4" Grid.Column="2" Click="OnClick" Name="b2" />
+        <Button Grid.Row="4" Grid.Column="3" Click="OnClick" Name="b3" />
+        <Button Grid.Row="4" Grid.Column="4" Click="OnClick" Name="b4" />
+        <Button Grid.Row="4" Grid.Column="5" Click="OnClick" Name="b5" />
+        <Button Grid.Row="4" Grid.Column="6" Click="OnClick" Name="b6" />   
+        <Button Grid.Row="5" Grid.Column="0" Click="OnClick" Name="a0" />
+        <Button Grid.Row="5" Grid.Column="1" Click="OnClick" Name="a1" />
+        <Button Grid.Row="5" Grid.Column="2" Click="OnClick" Name="a2" />
+        <Button Grid.Row="5" Grid.Column="3" Click="OnClick" Name="a3" />
+        <Button Grid.Row="5" Grid.Column="4" Click="OnClick" Name="a4" />
+        <Button Grid.Row="5" Grid.Column="5" Click="OnClick" Name="a5" />
+        <Button Grid.Row="5" Grid.Column="6" Click="OnClick" Name="a6" />
+        <TextBox Grid.Row="6" Grid.Column="0" Name="TextBox2" />
+        <TextBox Grid.Row="6" Grid.Column="1" Name="TextBox" Text="X" />
+    </Grid>
+</Window>
