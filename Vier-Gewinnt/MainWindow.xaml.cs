@@ -345,4 +345,3 @@ namespace Vier_Gewinnt
         }
     }
 }
-hasllo
